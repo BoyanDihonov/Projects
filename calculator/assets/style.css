@@ -10,14 +10,16 @@ body {
 
 .calculator {
     width: 320px;
-    height: 450px; /* Adjust height to fit the buttons */
+    height: 450px;
+    /* Adjust height to fit the buttons */
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Distribute space evenly */
+    justify-content: space-between;
+    /* Distribute space evenly */
 }
 
 .display {
@@ -29,8 +31,10 @@ body {
 
 .display input {
     width: 100%;
-    height: 60px; /* Adjusted for better visibility */
-    text-align: center; /* Center text horizontally */
+    height: 60px;
+    /* Adjusted for better visibility */
+    text-align: center;
+    /* Center text horizontally */
     font-size: 1.5em;
     border: none;
     border-radius: 5px;
@@ -41,10 +45,14 @@ body {
 
 .buttons {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
-    grid-template-rows: repeat(5, 1fr); /* Five equal rows */
-    gap: 10px; /* Space between buttons */
-    flex-grow: 1; /* Make buttons fill the remaining space */
+    grid-template-columns: repeat(4, 1fr);
+    /* Four equal columns */
+    grid-template-rows: repeat(5, 1fr);
+    /* Five equal rows */
+    gap: 10px;
+    /* Space between buttons */
+    flex-grow: 1;
+    /* Make buttons fill the remaining space */
 }
 
 button {
